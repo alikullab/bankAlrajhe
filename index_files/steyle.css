@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Verdana,Helvetica,sans-serif;
+}
+.contenair {
+    width: 70%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: #ededed;
+}
+
+nav ul {
+    display: flex;
+    padding: 15px;
+}
+
+nav ul li {
+    color: #221afb;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav-logo {
+    background-image: url(../img/back.jpg);
+    padding: 15px 0;
+}
+.nav-logo .logo {
+    background-color: #221afb;
+    padding: 20px;
+}
+
+.nav-logo .logo img {
+    width: 120px;
+}
+
+.nav-logo .logen {
+    margin-top: 15px;
+    border: .5px solid #cccbcb;
+    background-color: #e2e2e2;
+    padding: 13px;
+    color: #4a4a4a;
+}
+
+.nav-logo .logen-img {
+    border: .5px solid #cccbcb;
+    background-color: #fff;
+}
+
+.nav-logo .logen-img img {
+    width: 85%;
+    margin: 40px 35px 15px 0;
+}
+
+.nav-logo .logen-img input {
+    box-shadow: 0 1px 3px #dbdbdb inset;
+    border: 1px solid #cccbcb;
+    padding: 10px 10px 10px 10px;
+    height: 42px;
+    box-sizing: border-box;
+    width: 60%;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 1px;
+}
+
+.nav-logo .logen-img label {
+    margin: 0 30px;
+    font-size: 17px;
+}
+
+.nav-logo .logen-img [type="password"]{
+    margin: 0 20px 0 0;
+}
+
+.roabt {
+    margin: 30px 140px 0;
+}
+.nav-logo .logen-img .la-1 {
+    color: #fff;
+    background-color: #f43554 ;
+    padding: 12px 35px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.nav-logo .logen-img a.la-2 {
+    margin-right: 135px;
+    font-weight: bold;
+    display: block;
+
+}
+
+.nav-logo .logen-img a.la-3 {
+    margin: 40px 30px;
+    display: inline-block;
+    color: #4a4a4a ;
+}
+
+.nav-logo .logen-img a.la-4 {
+    font-weight: bold;
+}
+
+
+.flo .tahlamat {
+    background-color: #fff;
+    border: .5px solid #cccbcb;
+    padding: 30px 25px;
+    margin-top: -1px;
+}
+
+.flo .tahlamat h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.flo .tahlamat ul li {
+    font-size: 15px;
+}
+
+.flo {
+    display: flex;
+}
+.flo-1{
+    width: 69%;
+}
+.flo-2 {
+    width: 29%;
+    margin: 15px 3% 15px 0;
+    background-color: #fff;
+    height: 150px;
+    border: .5px solid #cccbcb;
+}
+
+
+
+.flo-2 .title {
+    border: .5px solid #cccbcb;
+    background-color: #e2e2e2;
+    padding: 13px;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+.flo-2 p{
+    padding: 13px;
+    font-size: 15px;
+}
+
+.flo-2 a {
+    float: left;
+    margin-left: 15px;
+}
+
+.flo-2 .box1 {
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+.flo-2 .flo-2-box {
+    height: 150px;
+    border: .5px solid #cccbcb;
+}
+
+footer {
+    background-color: #6a6a6a;
+    padding: 30px 15px;
+    color: #fff;
+    font-size: 11px;
+}
+
+@media (min-width:320px) and (max-width:991px) {
+    .contenair {
+        width: 100%;
+        margin: auto;
+    }
+
+    .flo {
+        display: block;
+        width: 100%;
+    }
+    .flo-1 {
+        width: 100%;
+    }
+
+    .flo-2 {
+        width: 100%;
+        display: flex;
+        height: 190px;
+    }
+    .flo-2-box {
+        width: 49%;
+    }
+    .flo-2 .box1 {
+        margin-top: 0;
+        margin-right: 2%;
+    }
+
+    .nav-logo .logen-img a.la-2{
+        margin-right: 15px;
+    }
+    .roabt {
+        margin: 30px 138px 0 0;
+
+    }
+    .flo-2 {
+        margin: 15px 0 15px 0;
+    }
+    .flo-2 .aaaaa {
+        margin-top: -20px;
+    }
+
+    .nav-logo .logen-img input {
+        margin-right: -20px;
+    }
+
+    .nav-logo .logen-img [type="password"] {
+        margin-right: 30px;
+    }
+
+    .nav-logo .logen-img a.la-4 {
+        font-size: 12px;
+    }
+
+    .nav-logo .logen-img a.la-3 {
+        font-size: 13px;
+    }
+
+    .flo-2 .flo-2-box {
+        height: 189px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .contenair {
+        width: 90%;
+    }
+    .nav-logo .logen-img a.la-2 {
+        margin-right: 200px;
+    }
+
+    
+}
+
+@media (min-width:320px) and (max-width:991px) {
+    .nav-logo .logen-img input {
+        width: 55%;
+        margin-right: 0;
+    }
+    .nav-logo .logen-img label {
+        /* margin: 2px 30px; */
+        font-size: 17px;
+        margin: 0 15px 0;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 320px) {
+.flo-2 {
+    width: 100%;
+    display: flex;
+    height: 190px;
+    }
+    }
